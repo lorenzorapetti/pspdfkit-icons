@@ -15,6 +15,7 @@ const Home = () => {
         thumbnailBarMode: 'scrollable',
         pageTransition: 'scrollContinuous',
         scrollDirection: 'vertical',
+        useParentNavigationBar: true,
       }}
       ref={pdfRef}
       fragmentTag="PDF1"
